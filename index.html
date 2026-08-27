@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ambos antimanchas resistentes a lavandina en Buenos Aires y CABA | Ambo de trabajo - venta directa de Fabrica</title>
+<meta name="description" content="Ambos médicos con tela antimanchas de alta resistencia: soportan el contacto directo con lavandina y desinfectantes hospitalarios sin decolorarse. Venta minorista y mayorista en provincia de Buenos Aires y CABA, con envíos a todo el país. Consultá por WhatsApp.">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Ambo de trabajo - venta directa de Fabrica — Ambos que la lavandina no arruina">
+<meta property="og:description" content="Tela antimanchas de alta resistencia: no se decolora ni se estropea con cloro ni desinfectantes hospitalarios. Venta minorista y mayorista en provincia de Buenos Aires y CABA, con envíos a todo el país.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="./img/hero.jpg">
+<meta property="og:locale" content="es_AR">
+<meta name="theme-color" content="#0d4d52">
+
+<!--
+  DATOS A REEMPLAZAR ANTES DE PUBLICAR (buscar cada corchete en el archivo):
+  - Marca: ya cargada ("Ambo de trabajo - venta directa de Fabrica"). Para cambiarla, buscá y
+           reemplazá ese texto donde aparezca (title, header, hero, footer, JSON-LD).
+  - WhatsApp: ya cargado (+54 9 11 6005 4924). Para cambiarlo, un solo lugar: constante
+              WHATSAPP_NUMBER dentro del <script> al final del archivo (y el campo "telephone" del JSON-LD).
+  - [EMAIL]         -> casilla de correo (links mailto: en "Contacto" y en el footer). Pendiente.
+  - Zona: ya cargada (provincia de Buenos Aires y CABA, con envíos a todo el país).
+  - [INSTAGRAM]     -> usuario de Instagram con arroba (sección Contacto y footer); al armar el link sacale la arroba
+  - Fotos: ./img/hero.jpg, ./img/prueba-comun.jpg, ./img/prueba-antimanchas.jpg,
+           ./img/modelo-1.jpg a ./img/modelo-8.jpg  -> ver img/LEEME.txt
+  - Datos a confirmar en "Preguntas frecuentes": cantidad de lavados garantizados, tiempos de envío,
+    mínimo de compra mayorista, colores disponibles (marcados como [A CONFIRMAR] en el texto)
+-->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Ambo de trabajo - venta directa de Fabrica",
+  "description": "Venta de ambos médicos con tela antimanchas resistente a lavandina y desinfectantes hospitalarios. Venta minorista y mayorista.",
+  "areaServed": "Provincia de Buenos Aires y CABA (Ciudad Autónoma de Buenos Aires), con envíos a todo el país",
+  "email": "[EMAIL]",
+  "telephone": "+5491160054924",
+  "image": "./img/hero.jpg",
+  "sameAs": ["https://instagram.com/[INSTAGRAM]"]
+}
+</script>
+
+<style>
+  :root{
+    --bg:#f6f9f9;
+    --bg-alt:#ffffff;
+    --ink:#132226;
+    --ink-soft:#4d5f64;
+    --brand:#0d4d52;
+    --brand-dark:#093639;
+    --brand-light:#e3f0ee;
+    --whatsapp:#25D366;
+    --whatsapp-dark:#1cad57;
+    --border:#dfe8e7;
+    --radius:14px;
+    --shadow:0 2px 12px rgba(19,34,38,.07);
+    --maxw:1120px;
+  }
+  *,*::before,*::after{ box-sizing:border-box; }
+  html{ scroll-behavior:smooth; }
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  img{ max-width:100%; display:block; }
+  a{ color:inherit; }
+  .wrap{ max-width:var(--maxw); margin:0 auto; padding:0 20px; }
+  section{ padding:56px 0; }
+  h1,h2,h3{ line-height:1.2; margin:0 0 .5em; }
+  h2{ font-size:clamp(1.5rem,3vw + .6rem,2.15rem); }
+  h3{ font-size:1.05rem; }
+  p{ margin:0 0 1em; color:var(--ink-soft); }
+  .eyebrow{
+    display:inline-block;
+    font-size:.78rem;
+    font-weight:700;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    color:var(--brand);
+    background:var(--brand-light);
+    padding:.35em .8em;
+    border-radius:999px;
+    margin-bottom:.9em;
+  }
+  .section-head{ max-width:640px; margin-bottom:2.2em; }
+  .section-head p{ margin-bottom:0; }
+
+  a:focus-visible, button:focus-visible{
+    outline:3px solid var(--brand-dark);
+    outline-offset:2px;
+    border-radius:6px;
+  }
+
+  /* Botones */
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:.5em;
+    padding:.85em 1.5em;
+    border-radius:999px;
+    font-weight:700;
+    font-size:.98rem;
+    text-decoration:none;
+    border:2px solid transparent;
+    cursor:pointer;
+    transition:transform .15s ease, box-shadow .15s ease, background .15s ease;
+  }
+  .btn:hover{ transform:translateY(-1px); }
+  .btn-wa{
+    background:var(--whatsapp);
+    color:#08321a;
+  }
+  .btn-wa:hover{ background:var(--whatsapp-dark); }
+  .btn-wa svg{ flex-shrink:0; }
+  .btn-outline{
+    background:transparent;
+    border-color:var(--border);
+    color:var(--brand-dark);
+  }
+  .btn-outline:hover{ border-color:var(--brand); background:var(--brand-light); }
+  .btn-block{ width:100%; }
+
+  /* Header */
+  .site-header{
+    position:sticky;
+    top:0;
+    z-index:40;
+    background:rgba(246,249,249,.92);
+    backdrop-filter:saturate(160%) blur(6px);
+    border-bottom:1px solid var(--border);
+  }
+  .site-header .wrap{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding-top:12px;
+    padding-bottom:12px;
+    gap:12px;
+  }
+  .brand{
+    font-weight:800;
+    font-size:clamp(.85rem,3vw,1.15rem);
+    color:var(--brand-dark);
+    text-decoration:none;
+    letter-spacing:-.01em;
+    min-width:0;
+    flex-shrink:1;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+  }
+  .site-header .btn{ padding:.65em 1.1em; font-size:.9rem; flex-shrink:0; }
+  .header-btn-text{ display:none; }
+  @media (min-width:480px){
+    .header-btn-text{ display:inline; }
+  }
+
+  /* Hero */
+  .hero{ padding-top:44px; }
+  .hero .wrap{
+    display:grid;
+    gap:32px;
+    align-items:center;
+  }
+  @media (min-width:860px){
+    .hero .wrap{ grid-template-columns:1.1fr 1fr; }
+  }
+  .hero h1{
+    font-size:clamp(1.9rem,4.5vw + 1rem,3.1rem);
+    color:var(--brand-dark);
+    letter-spacing:-.01em;
+  }
+  .hero-lead{ font-size:1.08rem; max-width:46ch; }
+  .hero-actions{ display:flex; flex-wrap:wrap; gap:12px; margin:1.4em 0; }
+  .trust-line{
+    font-size:.88rem;
+    color:var(--ink-soft);
+    display:flex;
+    flex-wrap:wrap;
+    gap:.4em .9em;
+  }
+  .hero-media{
+    border-radius:var(--radius);
+    overflow:hidden;
+    background:var(--brand-light);
+    box-shadow:var(--shadow);
+    aspect-ratio:4/5;
+  }
+  .hero-media img{ width:100%; height:100%; object-fit:cover; }
+
+  /* Placeholder de imagen rota */
+  .img-box{ position:relative; background:#e7edec; overflow:hidden; }
+  .img-box img{ width:100%; height:100%; object-fit:cover; }
+  .img-box.img-missing img{ display:none; }
+  .img-box .img-missing-label{
+    display:none;
+    position:absolute;
+    inset:0;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:1em;
+    font-size:.85rem;
+    font-weight:600;
+    color:#71827f;
+    background:
+      repeating-linear-gradient(45deg,#eef3f2,#eef3f2 10px,#e4eae9 10px,#e4eae9 20px);
+  }
+  .img-box.img-missing .img-missing-label{ display:flex; }
+
+  /* La prueba */
+  .proof{ background:var(--bg-alt); border-top:1px solid var(--border); border-bottom:1px solid var(--border); }
+  .proof-grid{
+    display:grid;
+    gap:18px;
+    grid-template-columns:1fr;
+  }
+  @media (min-width:640px){
+    .proof-grid{ grid-template-columns:1fr 1fr; }
+  }
+  .proof-card{
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+    overflow:hidden;
+    background:var(--bg-alt);
+    border:1px solid var(--border);
+  }
+  .proof-card .img-box{ aspect-ratio:4/3; }
+  .proof-card-label{
+    padding:14px 18px;
+    font-weight:700;
+    font-size:.95rem;
+  }
+  .proof-card.bad .proof-card-label{ color:#8a4b1f; }
+  .proof-card.good .proof-card-label{ color:var(--brand-dark); }
+  .proof-points{
+    margin-top:32px;
+    display:grid;
+    gap:16px;
+  }
+  @media (min-width:760px){
+    .proof-points{ grid-template-columns:repeat(3,1fr); }
+  }
+  .proof-point{
+    background:var(--bg);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    padding:18px 20px;
+    font-size:.92rem;
+  }
+  .proof-point strong{ display:block; color:var(--brand-dark); margin-bottom:.3em; font-size:.98rem; }
+
+  /* Beneficios */
+  .benefits-grid{
+    display:grid;
+    gap:16px;
+    grid-template-columns:1fr;
+  }
+  @media (min-width:640px){
+    .benefits-grid{ grid-template-columns:1fr 1fr; }
+  }
+  @media (min-width:960px){
+    .benefits-grid{ grid-template-columns:repeat(3,1fr); }
+  }
+  .benefit-card{
+    background:var(--bg-alt);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    padding:22px;
+    box-shadow:var(--shadow);
+  }
+  .benefit-icon{
+    width:48px;
+    height:48px;
+    border-radius:12px;
+    background:var(--brand-light);
+    color:var(--brand-dark);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:14px;
+  }
+  .benefit-card h3{ color:var(--ink); margin-bottom:.35em; }
+  .benefit-card p{ font-size:.92rem; margin-bottom:0; }
+
+  /* Galería */
+  .gallery-grid{
+    display:grid;
+    gap:12px;
+    grid-template-columns:repeat(2,1fr);
+  }
+  @media (min-width:640px){
+    .gallery-grid{ grid-template-columns:repeat(3,1fr); }
+  }
+  @media (min-width:960px){
+    .gallery-grid{ grid-template-columns:repeat(4,1fr); }
+  }
+  .gallery-item{
+    display:block;
+    text-decoration:none;
+    border-radius:var(--radius);
+    overflow:hidden;
+    background:var(--bg-alt);
+    border:1px solid var(--border);
+    box-shadow:var(--shadow);
+    transition:transform .15s ease;
+  }
+  .gallery-item:hover{ transform:translateY(-2px); }
+  .gallery-item .img-box{ aspect-ratio:3/4; }
+  .gallery-caption{
+    padding:10px 12px;
+    font-size:.82rem;
+    font-weight:600;
+    color:var(--ink);
+  }
+  .gallery-caption span{
+    display:block;
+    font-weight:400;
+    color:var(--ink-soft);
+    font-size:.78rem;
+  }
+
+  /* Dos caminos */
+  .paths{ background:var(--bg-alt); border-top:1px solid var(--border); border-bottom:1px solid var(--border); }
+  .paths-grid{
+    display:grid;
+    gap:20px;
+    grid-template-columns:1fr;
+  }
+  @media (min-width:800px){
+    .paths-grid{ grid-template-columns:1fr 1fr; }
+  }
+  .path-card{
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    padding:28px;
+    background:var(--bg);
+  }
+  .path-card.mayorista{ background:var(--brand-dark); color:#eef6f4; }
+  .path-card.mayorista h3, .path-card.mayorista p{ color:#eef6f4; }
+  .path-card.mayorista ul li::before{ color:var(--whatsapp); }
+  .path-card h3{ font-size:1.3rem; margin-bottom:.5em; }
+  .path-card ul{ list-style:none; margin:0 0 1.4em; padding:0; display:grid; gap:.6em; }
+  .path-card ul li{ padding-left:1.5em; position:relative; font-size:.94rem; }
+  .path-card ul li::before{
+    content:"✓";
+    position:absolute;
+    left:0;
+    color:var(--brand);
+    font-weight:800;
+  }
+
+  /* FAQ */
+  .faq-list{ display:grid; gap:10px; max-width:820px; }
+  details{
+    background:var(--bg-alt);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    padding:4px 20px;
+  }
+  summary{
+    cursor:pointer;
+    font-weight:700;
+    padding:16px 0;
+    list-style:none;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+  }
+  summary::-webkit-details-marker{ display:none; }
+  summary::after{
+    content:"+";
+    font-size:1.4rem;
+    line-height:1;
+    color:var(--brand);
+    flex-shrink:0;
+  }
+  details[open] summary::after{ content:"−"; }
+  details p{ padding-bottom:16px; margin:0; font-size:.94rem; }
+
+  /* Contacto */
+  .contact{
+    background:var(--brand-dark);
+    color:#eef6f4;
+  }
+  .contact h2{ color:#fff; }
+  .contact p{ color:#c9dedb; }
+  .contact-grid{
+    display:grid;
+    gap:28px;
+  }
+  @media (min-width:760px){
+    .contact-grid{ grid-template-columns:1.1fr .9fr; align-items:center; }
+  }
+  .contact-actions{ display:flex; flex-wrap:wrap; gap:12px; margin-top:1.2em; }
+  .contact-info{
+    display:grid;
+    gap:.6em;
+    font-size:.95rem;
+  }
+  .contact-info a{ text-decoration:underline; text-underline-offset:3px; }
+  .btn-on-dark{ background:#fff; color:var(--brand-dark); }
+  .btn-on-dark:hover{ background:#dff2ef; }
+
+  /* Footer */
+  footer{
+    background:#08292c;
+    color:#9db9b5;
+    font-size:.85rem;
+    padding:28px 0;
+  }
+  .footer-grid{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px 20px;
+    justify-content:space-between;
+    align-items:center;
+  }
+  footer a{ color:#d7ebe8; text-decoration:none; }
+  footer a:hover{ text-decoration:underline; }
+  .footer-links{ display:flex; flex-wrap:wrap; gap:6px 16px; }
+
+  /* Botón flotante */
+  .wa-float{
+    position:fixed;
+    right:18px;
+    bottom:18px;
+    z-index:50;
+    width:56px;
+    height:56px;
+    border-radius:50%;
+    background:var(--whatsapp);
+    color:#08321a;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0 6px 18px rgba(8,50,26,.35);
+    text-decoration:none;
+    opacity:0;
+    transform:translateY(12px) scale(.9);
+    transition:opacity .25s ease, transform .25s ease;
+    pointer-events:none;
+  }
+  .wa-float.visible{
+    opacity:1;
+    transform:translateY(0) scale(1);
+    pointer-events:auto;
+  }
+  .wa-float:hover{ background:var(--whatsapp-dark); }
+  @media (max-width:480px){
+    .wa-float{ right:14px; bottom:14px; width:52px; height:52px; }
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    html{ scroll-behavior:auto; }
+    .btn, .gallery-item, .wa-float{ transition:none; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#top">Ambo de trabajo - venta directa de Fabrica</a>
+    <a class="btn btn-wa" data-wa-msg="Hola Ambo de trabajo - venta directa de Fabrica, tengo una consulta." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
+      <svg width="18" height="18" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.4.7 4.6 1.9 6.5L4 29l7.7-1.9c1.7.9 3.6 1.4 5.6 1.4h.1c6.6 0 12-5.4 12-12S22.9 3 16.3 3H16Zm7.4 17c-.3.9-1.7 1.6-2.6 1.8-.7.1-1.6.2-4.6-1-3.9-1.6-6.4-5.5-6.6-5.8-.2-.3-1.6-2.1-1.6-4s1-2.8 1.4-3.2c.3-.4.7-.5 1-.5h.7c.2 0 .5 0 .8.6.3.7 1.1 2.5 1.2 2.7.1.2.2.4 0 .7-.1.3-.2.4-.4.6-.2.2-.4.5-.6.7-.2.2-.4.4-.2.8.2.4 1 1.7 2.2 2.7 1.5 1.3 2.7 1.7 3.1 1.9.4.2.6.1.8-.1.3-.3.9-1.1 1.2-1.4.3-.4.5-.3.8-.2.3.1 2.1 1 2.5 1.2.4.2.6.3.7.4.1.2.1.9-.2 1.8Z"/></svg>
+      <span class="header-btn-text">Consultar por WhatsApp</span>
+    </a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-copy">
+        <h1>Ambos que la lavandina no arruina.</h1>
+        <p class="hero-lead">Tela con tratamiento antimanchas: resiste el contacto directo con cloro y desinfectantes sin decolorarse ni perder el color. Pensados para turnos reales.</p>
+        <div class="hero-actions">
+          <a class="btn btn-wa" data-wa-msg="Hola Ambo de trabajo - venta directa de Fabrica, vi la página y quiero info sobre los ambos que no se manchan con lavandina." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.4.7 4.6 1.9 6.5L4 29l7.7-1.9c1.7.9 3.6 1.4 5.6 1.4h.1c6.6 0 12-5.4 12-12S22.9 3 16.3 3H16Zm7.4 17c-.3.9-1.7 1.6-2.6 1.8-.7.1-1.6.2-4.6-1-3.9-1.6-6.4-5.5-6.6-5.8-.2-.3-1.6-2.1-1.6-4s1-2.8 1.4-3.2c.3-.4.7-.5 1-.5h.7c.2 0 .5 0 .8.6.3.7 1.1 2.5 1.2 2.7.1.2.2.4 0 .7-.1.3-.2.4-.4.6-.2.2-.4.5-.6.7-.2.2-.4.4-.2.8.2.4 1 1.7 2.2 2.7 1.5 1.3 2.7 1.7 3.1 1.9.4.2.6.1.8-.1.3-.3.9-1.1 1.2-1.4.3-.4.5-.3.8-.2.3.1 2.1 1 2.5 1.2.4.2.6.3.7.4.1.2.1.9-.2 1.8Z"/></svg>
+            Consultar por WhatsApp
+          </a>
+          <a class="btn btn-outline" href="#mayorista">Soy institución, quiero cotizar</a>
+        </div>
+        <p class="trust-line">
+          <span>Envíos a todo el país</span>
+          <span>·</span>
+          <span>Cambio de talle sin costo</span>
+          <span>·</span>
+          <span>Atención personalizada</span>
+        </p>
+      </div>
+      <div class="hero-media img-box" data-fallback-parent>
+        <img src="./img/hero.jpg" alt="Profesional de la salud usando un ambo Ambo de trabajo - venta directa de Fabrica" width="800" height="1000" data-fallback>
+        <div class="img-missing-label">Foto de producto<br>./img/hero.jpg</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LA PRUEBA -->
+  <section class="proof" id="prueba">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">La prueba</span>
+        <h2>Lo que le pasa a un ambo común, no le pasa al nuestro</h2>
+        <p>Misma lavandina, mismo contacto directo, resultado completamente distinto.</p>
+      </div>
+      <div class="proof-grid">
+        <div class="proof-card bad">
+          <div class="img-box" data-fallback-parent>
+            <img src="./img/prueba-comun.jpg" alt="Tela de ambo común decolorada y manchada tras el contacto con lavandina" width="600" height="450" loading="lazy" data-fallback>
+            <div class="img-missing-label">Foto: tela común con lavandina<br>./img/prueba-comun.jpg</div>
+          </div>
+          <div class="proof-card-label">Ambo común</div>
+        </div>
+        <div class="proof-card good">
+          <div class="img-box" data-fallback-parent>
+            <img src="./img/prueba-antimanchas.jpg" alt="Tela Ambo de trabajo - venta directa de Fabrica intacta y sin decolorar tras el contacto con lavandina" width="600" height="450" loading="lazy" data-fallback>
+            <div class="img-missing-label">Foto: tela Ambo de trabajo - venta directa de Fabrica con lavandina<br>./img/prueba-antimanchas.jpg</div>
+          </div>
+          <div class="proof-card-label">Ambo de trabajo - venta directa de Fabrica</div>
+        </div>
+      </div>
+      <div class="proof-points">
+        <div class="proof-point"><strong>Ambo común</strong>Se despinta en cuestión de segundos apenas toca una gota de lavandina.</div>
+        <div class="proof-point"><strong>Ambo común</strong>Quedan halos amarillentos o blanquecinos que ya no salen más.</div>
+        <div class="proof-point"><strong>Ambo común</strong>Hay que reemplazarlo cada pocos meses por el desgaste del color.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section id="beneficios">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Por qué elegirlo</span>
+        <h2>Pensado para el uso real de un turno de salud</h2>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2c3.5 4.5 6 8.2 6 11.5A6 6 0 1 1 6 13.5C6 10.2 8.5 6.5 12 2Z"/><line x1="4" y1="20" x2="20" y2="4"/></svg></div>
+          <h3>Resistente a lavandina y cloro</h3>
+          <p>Soporta el contacto directo con lavandina y desinfectantes hospitalarios sin decolorarse ni quedar con halos.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6l7-3Z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h3>Antimanchas</h3>
+          <p>Los líquidos resbalan en la superficie: la mayoría de las manchas se limpian con un paño húmedo.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></div>
+          <h3>Secado rápido</h3>
+          <p>Ideal para turnos rotativos: se seca rápido y queda listo para el turno siguiente.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 0 1 13.5-5.8M20 12a8 8 0 0 1-13.5 5.8"/><path d="M17 3v4h-4M7 21v-4h4"/></svg></div>
+          <h3>No se deforma ni destiñe</h3>
+          <p>Mantiene la forma y el color lavado tras lavado, incluso con lavados frecuentes.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9h11a3 3 0 1 0-2.5-4.7"/><path d="M3 15h14a3 3 0 1 1-2.5 4.7"/></svg></div>
+          <h3>Liviana y transpirable</h3>
+          <p>Tela cómoda pensada para turnos largos, sin sacrificar frescura.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="10" rx="1.5"/><path d="M7 7v3M11 7v5M15 7v3M19 7v5"/></svg></div>
+          <h3>Talles reales</h3>
+          <p>Del XS al XXL, con corte diferenciado para hombre y mujer.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section id="galeria">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Modelos</span>
+        <h2>Elegí modelo y color</h2>
+        <p>Tocá cualquier foto y te escribimos por WhatsApp para confirmar talle y disponibilidad.</p>
+      </div>
+      <div class="gallery-grid">
+        <a class="gallery-item" data-wa-msg="Hola, me interesa el modelo Ambo clásico – Verde quirúrgico." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
+          <div class="img-box" data-fallback-parent>
+            <img src="./img/modelo-1.jpg" alt="Ambo clásico color verde quirúrgico" width="480" height="600" loading="lazy" data-fallback>
+            <div class="img-missing-label">./img/modelo-1.jpg</div>
+          </div>
+          <div class="gallery-caption">Ambo clásico<span>Verde quirúrgico</span></div>
+        </a>
+        <a class="gallery-item" data-wa-msg="Hola, me interesa el modelo Ambo clásico – Azul petróleo." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
+          <div class="img-box" data-fallback-parent>
+            <img src="./img/modelo-2.jpg" alt="Ambo clásico color azul petróleo" width="480" height="600" loading="lazy" data-fallback>
+            <div class="img-missing-label">./img/modelo-2.jpg</div>
+          </div>
+          <div class="gallery-caption">Ambo clásico<span>Azul petróleo</span></div>
+        </a>
+        <a class="gallery-item" data-wa-msg="Hola, me interesa el modelo Ambo cruzado – Blanco." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
+          <div class="img-box" data-fallback-parent>
+            <img src="./img/modelo-3.jpg" alt="Ambo cruzado color blanco" width="480" height="600" loading="lazy" data-fallback>
+            <div class="img-missing-label">./img/modelo-3.jpg</div>
+          </div>
+          <div class="gallery-caption">Ambo cruzado<span>Blanco</span></div>
+        </a>
+        <a class="gallery-item" data-wa-msg="Hola, me interesa el modelo Ambo cuello V – Bordó." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
+          <div class="img-box" data-fallback-parent>
+            <img src="./img/modelo-4.jpg" alt="Ambo cuello V color bordó" width="480" height="600" loading="lazy" data-fallback>
+            <div class="img-missing-label">./img/modelo-4.jpg</div>
+          </div>
+          <div class="gallery-caption">Ambo cuello V<span>Bordó</span></div>
+        </a>
+        <a class="gallery-item" data-wa-msg="Hola, me interesa el modelo Ambo unisex – Gris perla." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
+          <div class="img-box" data-fallback-parent>
+            <img src="./img/modelo-5.jpg" alt="Ambo unisex color gris perla" width="480" height="600" loading="lazy" data-fallback>
+            <div class="img-missing-label">./img/modelo-5.jpg</div>
+          </div>
+          <div class="gallery-caption">Ambo unisex<span>Gris perla</span></div>
+        </a>
+        <a class="gallery-item" data-wa-msg="Hola, me interesa el modelo Ambo premium – Negro." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
+          <div class="img-box" data-fallback-parent>
+            <img src="./img/modelo-6.jpg" alt="Ambo premium color negro" width="480" height="600" loading="lazy" data-fallback>
+            <div class="img-missing-label">./img/modelo-6.jpg</div>
+          </div>
+          <div class="gallery-caption">Ambo premium<span>Negro</span></div>
+        </a>
+        <a class="gallery-item" data-wa-msg="Hola, me interesa el modelo Ambo cuello mao – Celeste." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
+          <div class="img-box" data-fallback-parent>
+            <img src="./img/modelo-7.jpg" alt="Ambo cuello mao color celeste" width="480" height="600" loading="lazy" data-fallback>
+            <div class="img-missing-label">./img/modelo-7.jpg</div>
+          </div>
+          <div class="gallery-caption">Ambo cuello mao<span>Celeste</span></div>
+        </a>
+        <a class="gallery-item" data-wa-msg="Hola, me interesa el modelo Ambo estampado – Turquesa." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
+          <div class="img-box" data-fallback-parent>
+            <img src="./img/modelo-8.jpg" alt="Ambo estampado color turquesa" width="480" height="600" loading="lazy" data-fallback>
+            <div class="img-missing-label">./img/modelo-8.jpg</div>
+          </div>
+          <div class="gallery-caption">Ambo estampado<span>Turquesa</span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOS CAMINOS -->
+  <section class="paths">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Cómo comprar</span>
+        <h2>Comprá para vos o equipá a tu institución</h2>
+      </div>
+      <div class="paths-grid">
+        <div class="path-card minorista">
+          <h3>Comprá tu ambo</h3>
+          <p>Para el profesional o estudiante que necesita uno o dos ambos que aguanten el uso diario.</p>
+          <ul>
+            <li>Elegís modelo y color de la galería</li>
+            <li>Te confirmamos stock y coordinamos el envío</li>
+            <li>Cambio de talle sin costo si no es el tuyo</li>
+          </ul>
+          <a class="btn btn-wa" data-wa-msg="Hola, quiero consultar por un ambo. Talle y color que me interesa:" href="https://wa.me/5491160054924" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.4.7 4.6 1.9 6.5L4 29l7.7-1.9c1.7.9 3.6 1.4 5.6 1.4h.1c6.6 0 12-5.4 12-12S22.9 3 16.3 3H16Zm7.4 17c-.3.9-1.7 1.6-2.6 1.8-.7.1-1.6.2-4.6-1-3.9-1.6-6.4-5.5-6.6-5.8-.2-.3-1.6-2.1-1.6-4s1-2.8 1.4-3.2c.3-.4.7-.5 1-.5h.7c.2 0 .5 0 .8.6.3.7 1.1 2.5 1.2 2.7.1.2.2.4 0 .7-.1.3-.2.4-.4.6-.2.2-.4.5-.6.7-.2.2-.4.4-.2.8.2.4 1 1.7 2.2 2.7 1.5 1.3 2.7 1.7 3.1 1.9.4.2.6.1.8-.1.3-.3.9-1.1 1.2-1.4.3-.4.5-.3.8-.2.3.1 2.1 1 2.5 1.2.4.2.6.3.7.4.1.2.1.9-.2 1.8Z"/></svg>
+            Consultar mi ambo
+          </a>
+        </div>
+        <div class="path-card mayorista" id="mayorista">
+          <h3>Equipá a tu institución</h3>
+          <p>Para clínicas, sanatorios, laboratorios, geriátricos y distribuidores que compran por cantidad.</p>
+          <ul>
+            <li>Precio diferencial por cantidad</li>
+            <li>Bordado de nombre, cargo o logo institucional</li>
+            <li>Reposición garantizada con el mismo color para todo el equipo</li>
+          </ul>
+          <a class="btn btn-wa" data-wa-msg="Hola, represento a una institución y quiero pedir una cotización por cantidad." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.4.7 4.6 1.9 6.5L4 29l7.7-1.9c1.7.9 3.6 1.4 5.6 1.4h.1c6.6 0 12-5.4 12-12S22.9 3 16.3 3H16Zm7.4 17c-.3.9-1.7 1.6-2.6 1.8-.7.1-1.6.2-4.6-1-3.9-1.6-6.4-5.5-6.6-5.8-.2-.3-1.6-2.1-1.6-4s1-2.8 1.4-3.2c.3-.4.7-.5 1-.5h.7c.2 0 .5 0 .8.6.3.7 1.1 2.5 1.2 2.7.1.2.2.4 0 .7-.1.3-.2.4-.4.6-.2.2-.4.5-.6.7-.2.2-.4.4-.2.8.2.4 1 1.7 2.2 2.7 1.5 1.3 2.7 1.7 3.1 1.9.4.2.6.1.8-.1.3-.3.9-1.1 1.2-1.4.3-.4.5-.3.8-.2.3.1 2.1 1 2.5 1.2.4.2.6.3.7.4.1.2.1.9-.2 1.8Z"/></svg>
+            Pedir cotización
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Preguntas frecuentes</span>
+        <h2>Todo lo que solés preguntarnos</h2>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>¿Realmente aguanta la lavandina pura?</summary>
+          <p>Sí: el tejido tiene un tratamiento antimanchas pensado para el contacto directo con lavandina y desinfectantes de uso hospitalario, sin decolorarse ni perder el color en el uso normal. Igual que con cualquier tela, no se recomienda dejarla en remojo con lavandina pura durante horas: es para desinfectar manchas puntuales, no como método de lavado habitual.</p>
+        </details>
+        <details>
+          <summary>¿Cuántos lavados dura el tratamiento?</summary>
+          <p>El tratamiento está pensado para acompañar toda la vida útil de la prenda con un uso y lavado normales. Cantidad exacta de lavados garantizados: [A CONFIRMAR].</p>
+        </details>
+        <details>
+          <summary>¿Cómo lo lavo?</summary>
+          <p>Lavado a máquina con agua fría o tibia, preferentemente del lado revés, sin abusar del suavizante ni del secado a temperatura alta, para conservar mejor la tela y el color. [Detalle de cuidado a confirmar según ficha técnica de la tela].</p>
+        </details>
+        <details>
+          <summary>¿Qué talles y colores hay?</summary>
+          <p>Talles del XS al XXL, en corte para hombre y mujer. Colores disponibles: [A CONFIRMAR] — la sección de modelos más arriba muestra las opciones vigentes.</p>
+        </details>
+        <details>
+          <summary>¿Hacen envíos a todo el país? ¿Cuánto tardan?</summary>
+          <p>Sí, hacemos envíos a todo el país. Tiempo estimado: [A CONFIRMAR] días hábiles en provincia de Buenos Aires y CABA, y [A CONFIRMAR] días hábiles al resto del país, según la zona y el correo.</p>
+        </details>
+        <details>
+          <summary>¿Puedo pedir bordado con mi nombre o el logo de la institución?</summary>
+          <p>Sí, hacemos bordado de nombre, cargo o logo institucional. El costo y el plazo dependen de la cantidad de prendas y del diseño; consultanos por WhatsApp para cotizarlo.</p>
+        </details>
+        <details>
+          <summary>¿Cuál es el mínimo para comprar mayorista?</summary>
+          <p>El mínimo para precio mayorista es de [A CONFIRMAR] unidades. Para pedidos más chicos aplican precios de venta minorista.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contact" id="contacto">
+    <div class="wrap">
+      <div class="contact-grid">
+        <div>
+          <h2>¿Empezamos por WhatsApp?</h2>
+          <p>Contanos qué necesitás —para vos o para tu institución— y te respondemos con talles, colores y disponibilidad.</p>
+          <div class="contact-actions">
+            <a class="btn btn-wa" data-wa-msg="Hola Ambo de trabajo - venta directa de Fabrica, tengo una consulta." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.4.7 4.6 1.9 6.5L4 29l7.7-1.9c1.7.9 3.6 1.4 5.6 1.4h.1c6.6 0 12-5.4 12-12S22.9 3 16.3 3H16Zm7.4 17c-.3.9-1.7 1.6-2.6 1.8-.7.1-1.6.2-4.6-1-3.9-1.6-6.4-5.5-6.6-5.8-.2-.3-1.6-2.1-1.6-4s1-2.8 1.4-3.2c.3-.4.7-.5 1-.5h.7c.2 0 .5 0 .8.6.3.7 1.1 2.5 1.2 2.7.1.2.2.4 0 .7-.1.3-.2.4-.4.6-.2.2-.4.5-.6.7-.2.2-.4.4-.2.8.2.4 1 1.7 2.2 2.7 1.5 1.3 2.7 1.7 3.1 1.9.4.2.6.1.8-.1.3-.3.9-1.1 1.2-1.4.3-.4.5-.3.8-.2.3.1 2.1 1 2.5 1.2.4.2.6.3.7.4.1.2.1.9-.2 1.8Z"/></svg>
+              Consultar por WhatsApp
+            </a>
+            <a class="btn btn-outline btn-on-dark" href="mailto:[EMAIL]?subject=Consulta%20desde%20la%20web">Escribir un mail</a>
+          </div>
+        </div>
+        <div class="contact-info">
+          <div><strong>Mail:</strong> <a href="mailto:[EMAIL]?subject=Consulta%20desde%20la%20web">[EMAIL]</a></div>
+          <div><strong>Instagram:</strong> <a href="https://instagram.com/[INSTAGRAM]" target="_blank" rel="noopener">[INSTAGRAM]</a></div>
+          <div><strong>Zona:</strong> Provincia de Buenos Aires y CABA — envíos a todo el país</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div>© <span id="year"></span> Ambo de trabajo - venta directa de Fabrica</div>
+    <div class="footer-links">
+      <a href="mailto:[EMAIL]?subject=Consulta%20desde%20la%20web">[EMAIL]</a>
+      <a data-wa-msg="Hola Ambo de trabajo - venta directa de Fabrica, tengo una consulta." href="https://wa.me/5491160054924" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="https://instagram.com/[INSTAGRAM]" target="_blank" rel="noopener">[INSTAGRAM]</a>
+    </div>
+  </div>
+</footer>
+
+<a id="wa-float" class="wa-float" data-wa-msg="Hola Ambo de trabajo - venta directa de Fabrica, tengo una consulta." href="https://wa.me/5491160054924" target="_blank" rel="noopener" aria-label="Consultar por WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.4.7 4.6 1.9 6.5L4 29l7.7-1.9c1.7.9 3.6 1.4 5.6 1.4h.1c6.6 0 12-5.4 12-12S22.9 3 16.3 3H16Zm7.4 17c-.3.9-1.7 1.6-2.6 1.8-.7.1-1.6.2-4.6-1-3.9-1.6-6.4-5.5-6.6-5.8-.2-.3-1.6-2.1-1.6-4s1-2.8 1.4-3.2c.3-.4.7-.5 1-.5h.7c.2 0 .5 0 .8.6.3.7 1.1 2.5 1.2 2.7.1.2.2.4 0 .7-.1.3-.2.4-.4.6-.2.2-.4.5-.6.7-.2.2-.4.4-.2.8.2.4 1 1.7 2.2 2.7 1.5 1.3 2.7 1.7 3.1 1.9.4.2.6.1.8-.1.3-.3.9-1.1 1.2-1.4.3-.4.5-.3.8-.2.3.1 2.1 1 2.5 1.2.4.2.6.3.7.4.1.2.1.9-.2 1.8Z"/></svg>
+</a>
+
+<script>
+(function(){
+  // Único lugar para poner el número real de WhatsApp (solo dígitos, con código de país).
+  var WHATSAPP_NUMBER = "5491160054924";
+
+  function buildWaUrl(msg){
+    return "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(msg);
+  }
+  var waLinks = document.querySelectorAll("[data-wa-msg]");
+  for (var i = 0; i < waLinks.length; i++){
+    waLinks[i].href = buildWaUrl(waLinks[i].getAttribute("data-wa-msg"));
+  }
+
+  var floatBtn = document.getElementById("wa-float");
+  function toggleFloat(){
+    if (window.scrollY > 400){ floatBtn.classList.add("visible"); }
+    else { floatBtn.classList.remove("visible"); }
+  }
+  window.addEventListener("scroll", toggleFloat, { passive: true });
+  toggleFloat();
+
+  var fallbackImgs = document.querySelectorAll("img[data-fallback]");
+  for (var j = 0; j < fallbackImgs.length; j++){
+    fallbackImgs[j].addEventListener("error", function(){
+      var box = this.closest(".img-box");
+      if (box) box.classList.add("img-missing");
+    }, { once: true });
+  }
+
+  var yearEl = document.getElementById("year");
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+Poné acá tus fotos con EXACTAMENTE estos nombres (respetá mayúsculas/minúsculas y extensión .jpg).
+Antes de subirlas: achicalas a max. 1600px de ancho y comprimilas (squoosh.app), para que la página cargue rápido.
+
+hero.jpg              -> foto principal del hero (vertical, alguien usando el ambo)
+prueba-comun.jpg       -> tela de ambo COMÚN manchada/decolorada con lavandina
+prueba-antimanchas.jpg -> tela de Ambo de trabajo - venta directa de Fabrica intacta con lavandina (la foto que más vende)
+modelo-1.jpg           -> Ambo clásico - Verde quirúrgico
+modelo-2.jpg           -> Ambo clásico - Azul petróleo
+modelo-3.jpg           -> Ambo cruzado - Blanco
+modelo-4.jpg           -> Ambo cuello V - Bordó
+modelo-5.jpg           -> Ambo unisex - Gris perla
+modelo-6.jpg           -> Ambo premium - Negro
+modelo-7.jpg           -> Ambo cuello mao - Celeste
+modelo-8.jpg           -> Ambo estampado - Turquesa
+
+Si cambiás los nombres o colores de los modelos, actualizá también el atributo
+src de cada <img> y el texto data-wa-msg del <a> correspondiente en index.html
+(sección GALERÍA), para que el mensaje de WhatsApp mencione el modelo correcto.
+
+Mientras no pongas una foto, esa sección va a mostrar un recuadro gris prolijo
+con el nombre del archivo esperado, en vez de un ícono roto.
