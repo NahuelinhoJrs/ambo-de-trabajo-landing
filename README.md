@@ -30,8 +30,7 @@ Necesitás tener Git instalado y estar logueado con tu cuenta de GitHub (`gh aut
 
 ## Pendiente de completar
 
-Buscá estos corchetes en `index.html`:
-- `[EMAIL]` — casilla de correo para consultas
+Buscá este corchete en `index.html`:
 - `[INSTAGRAM]` — usuario de Instagram
 
 Y las fotos que pide `img/LEEME.txt` (mientras no estén, esas secciones muestran un recuadro gris con el nombre del archivo esperado, no un ícono roto).
@@ -40,4 +39,15 @@ Y las fotos que pide `img/LEEME.txt` (mientras no estén, esas secciones muestra
 
 - Marca: Ambo de trabajo - venta directa de Fabrica
 - WhatsApp: +54 9 11 6005 4924 (todos los botones de la página apuntan ahí, con mensaje distinto según la sección)
+- Mail: Panambyventas@gmail.com (link "mailto:" en Contacto y footer — ver nota abajo)
 - Zona: Provincia de Buenos Aires y CABA, con envíos a todo el país
+
+## Sobre el mail: no hay formulario que envíe datos solo
+
+La página no tiene backend ni servidor propio (por eso es gratis de mantener). El botón
+"Escribir un mail" y el mail del footer son links `mailto:`: al tocarlos, se abre la app de
+correo del propio visitante (Gmail, Outlook, etc.) con el destinatario y el asunto ya
+completados, pero **el mail lo termina de escribir y enviar la persona que visita la página**,
+no un formulario que mande algo automáticamente. Si en algún momento se quiere un formulario
+real que llegue solo a Panambyventas@gmail.com sin que el visitante use su propio correo, se
+puede sumar con Formspree (plan gratis) en un rato, sin tocar el resto del sitio.
