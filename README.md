@@ -30,10 +30,9 @@ Necesitás tener Git instalado y estar logueado con tu cuenta de GitHub (`gh aut
 
 ## Pendiente de completar
 
-Buscá este corchete en `index.html`:
-- `[INSTAGRAM]` — usuario de Instagram
-
-Y las fotos que pide `img/LEEME.txt` (mientras no estén, esas secciones muestran un recuadro gris con el nombre del archivo esperado, no un ícono roto).
+- Buscá `[INSTAGRAM]` en `index.html` y reemplazalo por el usuario de Instagram.
+- Fotos `img/prueba-comun.jpg` y `img/prueba-antimanchas.jpg` (comparación real con lavandina — ver `img/LEEME.txt`). Mientras no estén, esa sección muestra un recuadro gris con el nombre del archivo esperado, no un ícono roto.
+- `img/modelo-5.jpg` (verde quirúrgico) y `img/modelo-6.jpg` (bordó) son la misma prenda recoloreada digitalmente a partir de la foto azul marino, no fotos reales de esos colores — están para completar la grilla mientras tanto. Reemplazalas por fotos reales cuando las tengas.
 
 ## Datos ya cargados
 

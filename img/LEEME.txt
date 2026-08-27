@@ -1,21 +1,24 @@
-Poné acá tus fotos con EXACTAMENTE estos nombres (respetá mayúsculas/minúsculas y extensión .jpg).
-Antes de subirlas: achicalas a max. 1600px de ancho y comprimilas (squoosh.app), para que la página cargue rápido.
+YA CARGADAS (no hace falta tocar nada acá):
+hero.jpg      -> foto del ambo celeste, de frente y de espaldas
+modelo-1.jpg  -> Ambo clásico - Azul marino  (foto real)
+modelo-2.jpg  -> Ambo clásico - Negro         (foto real)
+modelo-3.jpg  -> Ambo clásico - Celeste       (foto real)
+modelo-4.jpg  -> Ambo clásico - Rojo          (foto real)
+modelo-5.jpg  -> Ambo clásico - Verde quirúrgico  (MISMA prenda recoloreada digitalmente,
+                  no es una foto real de ese color)
+modelo-6.jpg  -> Ambo clásico - Bordó             (ídem, recoloreada digitalmente)
 
-hero.jpg              -> foto principal del hero (vertical, alguien usando el ambo)
+Si en algún momento tenés fotos reales de los colores verde quirúrgico o bordó, reemplazá
+modelo-5.jpg / modelo-6.jpg por esas (mismo nombre de archivo, misma proporción vertical
+aprox. 3:4) y quedan más fieles al producto real que se envía.
+
+PENDIENTE (esta sí tiene que ser una foto real, no de catálogo — es la que más vende):
 prueba-comun.jpg       -> tela de ambo COMÚN manchada/decolorada con lavandina
-prueba-antimanchas.jpg -> tela de Ambo de trabajo - venta directa de Fabrica intacta con lavandina (la foto que más vende)
-modelo-1.jpg           -> Ambo clásico - Verde quirúrgico
-modelo-2.jpg           -> Ambo clásico - Azul petróleo
-modelo-3.jpg           -> Ambo cruzado - Blanco
-modelo-4.jpg           -> Ambo cuello V - Bordó
-modelo-5.jpg           -> Ambo unisex - Gris perla
-modelo-6.jpg           -> Ambo premium - Negro
-modelo-7.jpg           -> Ambo cuello mao - Celeste
-modelo-8.jpg           -> Ambo estampado - Turquesa
+prueba-antimanchas.jpg -> tela de Ambo de trabajo - venta directa de Fabrica intacta con lavandina
 
-Si cambiás los nombres o colores de los modelos, actualizá también el atributo
-src de cada <img> y el texto data-wa-msg del <a> correspondiente en index.html
-(sección GALERÍA), para que el mensaje de WhatsApp mencione el modelo correcto.
+Sacá un retazo de tela común y uno de la tela que vendés, a los dos una gota de lavandina,
+misma luz, misma foto, después de unos minutos. Antes de subirlas: achicalas a max. 1600px
+de ancho y comprimilas (squoosh.app).
 
-Mientras no pongas una foto, esa sección va a mostrar un recuadro gris prolijo
-con el nombre del archivo esperado, en vez de un ícono roto.
+Mientras no pongas esas dos fotos, esa sección va a mostrar un recuadro gris prolijo con el
+nombre del archivo esperado, en vez de un ícono roto.

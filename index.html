@@ -22,8 +22,11 @@
   - Mail: ya cargado (Panambyventas@gmail.com), links mailto: en "Contacto" y en el footer.
   - Zona: ya cargada (provincia de Buenos Aires y CABA, con envíos a todo el país).
   - [INSTAGRAM]     -> usuario de Instagram con arroba (sección Contacto y footer); al armar el link sacale la arroba
-  - Fotos: ./img/hero.jpg, ./img/prueba-comun.jpg, ./img/prueba-antimanchas.jpg,
-           ./img/modelo-1.jpg a ./img/modelo-8.jpg  -> ver img/LEEME.txt
+  - Fotos: hero.jpg y modelo-1.jpg a modelo-6.jpg ya cargadas. modelo-5 (verde quirúrgico) y
+           modelo-6 (bordó) son la misma prenda recoloreada digitalmente, no una foto real de
+           ese color — reemplazar cuando haya foto real de esos colores.
+  - [ ] Pendiente (esto SÍ tiene que ser una foto real, no de stock): ./img/prueba-comun.jpg y
+        ./img/prueba-antimanchas.jpg, la comparación de la tela con lavandina. Ver img/LEEME.txt
   - Datos a confirmar en "Preguntas frecuentes": cantidad de lavados garantizados, tiempos de envío,
     mínimo de compra mayorista, colores disponibles (marcados como [A CONFIRMAR] en el texto)
 -->
@@ -194,7 +197,7 @@
     box-shadow:var(--shadow);
     aspect-ratio:4/5;
   }
-  .hero-media img{ width:100%; height:100%; object-fit:cover; }
+  .hero-media img{ width:100%; height:100%; object-fit:cover; object-position:top center; }
 
   /* Placeholder de imagen rota */
   .img-box{ position:relative; background:#e7edec; overflow:hidden; }
@@ -502,7 +505,7 @@
         </p>
       </div>
       <div class="hero-media img-box" data-fallback-parent>
-        <img src="./img/hero.jpg" alt="Profesional de la salud usando un ambo Ambo de trabajo - venta directa de Fabrica" width="800" height="1000" data-fallback>
+        <img src="./img/hero.jpg" alt="Profesionales usando el ambo de trabajo color celeste, de frente y de espaldas" width="760" height="1462" data-fallback>
         <div class="img-missing-label">Foto de producto<br>./img/hero.jpg</div>
       </div>
     </div>
@@ -591,61 +594,47 @@
         <p>Tocá cualquier foto y te escribimos por WhatsApp para confirmar talle y disponibilidad.</p>
       </div>
       <div class="gallery-grid">
+        <a class="gallery-item" data-wa-msg="Hola, me interesa el modelo Ambo clásico – Azul marino." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
+          <div class="img-box" data-fallback-parent>
+            <img src="./img/modelo-1.jpg" alt="Ambo clásico color azul marino" width="480" height="640" loading="lazy" data-fallback>
+            <div class="img-missing-label">./img/modelo-1.jpg</div>
+          </div>
+          <div class="gallery-caption">Ambo clásico<span>Azul marino</span></div>
+        </a>
+        <a class="gallery-item" data-wa-msg="Hola, me interesa el modelo Ambo clásico – Negro." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
+          <div class="img-box" data-fallback-parent>
+            <img src="./img/modelo-2.jpg" alt="Ambo clásico color negro" width="480" height="640" loading="lazy" data-fallback>
+            <div class="img-missing-label">./img/modelo-2.jpg</div>
+          </div>
+          <div class="gallery-caption">Ambo clásico<span>Negro</span></div>
+        </a>
+        <a class="gallery-item" data-wa-msg="Hola, me interesa el modelo Ambo clásico – Celeste." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
+          <div class="img-box" data-fallback-parent>
+            <img src="./img/modelo-3.jpg" alt="Ambo clásico color celeste" width="480" height="640" loading="lazy" data-fallback>
+            <div class="img-missing-label">./img/modelo-3.jpg</div>
+          </div>
+          <div class="gallery-caption">Ambo clásico<span>Celeste</span></div>
+        </a>
+        <a class="gallery-item" data-wa-msg="Hola, me interesa el modelo Ambo clásico – Rojo." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
+          <div class="img-box" data-fallback-parent>
+            <img src="./img/modelo-4.jpg" alt="Ambo clásico color rojo" width="480" height="640" loading="lazy" data-fallback>
+            <div class="img-missing-label">./img/modelo-4.jpg</div>
+          </div>
+          <div class="gallery-caption">Ambo clásico<span>Rojo</span></div>
+        </a>
         <a class="gallery-item" data-wa-msg="Hola, me interesa el modelo Ambo clásico – Verde quirúrgico." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
           <div class="img-box" data-fallback-parent>
-            <img src="./img/modelo-1.jpg" alt="Ambo clásico color verde quirúrgico" width="480" height="600" loading="lazy" data-fallback>
-            <div class="img-missing-label">./img/modelo-1.jpg</div>
+            <img src="./img/modelo-5.jpg" alt="Ambo clásico color verde quirúrgico" width="480" height="640" loading="lazy" data-fallback>
+            <div class="img-missing-label">./img/modelo-5.jpg</div>
           </div>
           <div class="gallery-caption">Ambo clásico<span>Verde quirúrgico</span></div>
         </a>
-        <a class="gallery-item" data-wa-msg="Hola, me interesa el modelo Ambo clásico – Azul petróleo." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
+        <a class="gallery-item" data-wa-msg="Hola, me interesa el modelo Ambo clásico – Bordó." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
           <div class="img-box" data-fallback-parent>
-            <img src="./img/modelo-2.jpg" alt="Ambo clásico color azul petróleo" width="480" height="600" loading="lazy" data-fallback>
-            <div class="img-missing-label">./img/modelo-2.jpg</div>
-          </div>
-          <div class="gallery-caption">Ambo clásico<span>Azul petróleo</span></div>
-        </a>
-        <a class="gallery-item" data-wa-msg="Hola, me interesa el modelo Ambo cruzado – Blanco." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
-          <div class="img-box" data-fallback-parent>
-            <img src="./img/modelo-3.jpg" alt="Ambo cruzado color blanco" width="480" height="600" loading="lazy" data-fallback>
-            <div class="img-missing-label">./img/modelo-3.jpg</div>
-          </div>
-          <div class="gallery-caption">Ambo cruzado<span>Blanco</span></div>
-        </a>
-        <a class="gallery-item" data-wa-msg="Hola, me interesa el modelo Ambo cuello V – Bordó." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
-          <div class="img-box" data-fallback-parent>
-            <img src="./img/modelo-4.jpg" alt="Ambo cuello V color bordó" width="480" height="600" loading="lazy" data-fallback>
-            <div class="img-missing-label">./img/modelo-4.jpg</div>
-          </div>
-          <div class="gallery-caption">Ambo cuello V<span>Bordó</span></div>
-        </a>
-        <a class="gallery-item" data-wa-msg="Hola, me interesa el modelo Ambo unisex – Gris perla." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
-          <div class="img-box" data-fallback-parent>
-            <img src="./img/modelo-5.jpg" alt="Ambo unisex color gris perla" width="480" height="600" loading="lazy" data-fallback>
-            <div class="img-missing-label">./img/modelo-5.jpg</div>
-          </div>
-          <div class="gallery-caption">Ambo unisex<span>Gris perla</span></div>
-        </a>
-        <a class="gallery-item" data-wa-msg="Hola, me interesa el modelo Ambo premium – Negro." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
-          <div class="img-box" data-fallback-parent>
-            <img src="./img/modelo-6.jpg" alt="Ambo premium color negro" width="480" height="600" loading="lazy" data-fallback>
+            <img src="./img/modelo-6.jpg" alt="Ambo clásico color bordó" width="480" height="640" loading="lazy" data-fallback>
             <div class="img-missing-label">./img/modelo-6.jpg</div>
           </div>
-          <div class="gallery-caption">Ambo premium<span>Negro</span></div>
-        </a>
-        <a class="gallery-item" data-wa-msg="Hola, me interesa el modelo Ambo cuello mao – Celeste." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
-          <div class="img-box" data-fallback-parent>
-            <img src="./img/modelo-7.jpg" alt="Ambo cuello mao color celeste" width="480" height="600" loading="lazy" data-fallback>
-            <div class="img-missing-label">./img/modelo-7.jpg</div>
-          </div>
-          <div class="gallery-caption">Ambo cuello mao<span>Celeste</span></div>
-        </a>
-        <a class="gallery-item" data-wa-msg="Hola, me interesa el modelo Ambo estampado – Turquesa." href="https://wa.me/5491160054924" target="_blank" rel="noopener">
-          <div class="img-box" data-fallback-parent>
-            <img src="./img/modelo-8.jpg" alt="Ambo estampado color turquesa" width="480" height="600" loading="lazy" data-fallback>
-            <div class="img-missing-label">./img/modelo-8.jpg</div>
-          </div>
-          <div class="gallery-caption">Ambo estampado<span>Turquesa</span></div>
+          <div class="gallery-caption">Ambo clásico<span>Bordó</span></div>
         </a>
       </div>
     </div>

@@ -1,0 +1,45 @@
+AMBO DE TRABAJO - LANDING PAGE
+Enlaces importantes para continuar el trabajo más adelante
+==============================================================
+
+SITIO EN VIVO (público, ya funcionando)
+https://nahuelinhojrs.github.io/ambo-de-trabajo-landing/
+
+REPOSITORIO EN GITHUB (tu cuenta: NahuelinhoJrs)
+https://github.com/NahuelinhoJrs/ambo-de-trabajo-landing
+
+- Editar index.html directo desde el navegador:
+  https://github.com/NahuelinhoJrs/ambo-de-trabajo-landing/blob/main/index.html
+- Subir/reemplazar fotos (carpeta img/):
+  https://github.com/NahuelinhoJrs/ambo-de-trabajo-landing/tree/main/img
+- Instrucciones de edición (README):
+  https://github.com/NahuelinhoJrs/ambo-de-trabajo-landing#readme
+- Qué fotos faltan y con qué nombre exacto (img/LEEME.txt):
+  https://github.com/NahuelinhoJrs/ambo-de-trabajo-landing/blob/main/img/LEEME.txt
+
+VISTA PREVIA EN CLAUDE (privada, solo la ves vos salvo que la compartas)
+https://claude.ai/code/artifact/343a5fc5-2d03-4a6f-af0a-d00861db3c31
+
+CARPETA DEL PROYECTO EN ESTA COMPUTADORA
+C:\Users\Administrator\Documents\ambos-landing
+
+WHATSAPP CARGADO EN LA PÁGINA
++54 9 11 6005 4924
+https://wa.me/5491160054924
+
+HERRAMIENTA PARA COMPRIMIR FOTOS ANTES DE SUBIRLAS
+https://squoosh.app
+
+==============================================================
+PENDIENTE PARA TERMINAR
+==============================================================
+- [x] Mail de consultas cargado: Panambyventas@gmail.com
+- [ ] Cargar usuario de Instagram (reemplaza [INSTAGRAM] en index.html)
+- [x] Hero y 6 fotos de la galería cargadas (azul marino, negro, celeste y rojo son fotos
+      reales; verde quirúrgico y bordó son la misma prenda recoloreada digitalmente)
+- [ ] Subir prueba-comun.jpg y prueba-antimanchas.jpg: foto REAL de la tela con lavandina
+      (no puede ser una foto de catálogo, es la prueba central de la página)
+- [ ] Confirmar en la página: cantidad de lavados garantizados, tiempos de
+      envío, mínimo de compra mayorista, colores disponibles
+      (marcados como [A CONFIRMAR] dentro de index.html)
+- [ ] Opcional más adelante: dominio propio apuntando a este mismo sitio
